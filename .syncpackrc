@@ -1,0 +1,40 @@
+{
+  "sortFirst": [
+    "name",
+    "description",
+    "version",
+    "author",
+    "private",
+    "type",
+    "main",
+    "module",
+    "types",
+    "exports",
+    "files",
+    "scripts",
+    "dependencies",
+    "devDependencies",
+    "peerDependencies",
+    "lint-staged",
+    "config",
+    "engines",
+    "packageManager",
+    "workspaces"
+  ],
+  "versionGroups": [
+    {
+      "label": "Use workspace protocol for local packages",
+      "packages": ["**"],
+      "dependencies": ["$LOCAL"],
+      "isIgnored": true
+    }
+  ],
+  "semverGroups": [
+    {
+      "range": "",
+      "packages": ["**"],
+      "dependencies": ["**"],
+      "dependencyTypes": ["dependencies", "devDependencies", "peerDependencies"]
+    }
+  ]
+}

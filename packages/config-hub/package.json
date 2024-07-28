@@ -1,0 +1,27 @@
+{
+  "name": "@3vo/config-hub",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "./eslint-config": {
+      "import": "./eslint.config.default.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "eslint": "^9.8.0",
+    "eslint-plugin-react": "^7.35.0",
+    "globals": "^15.8.0",
+    "typescript-eslint": "^7.17.0"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
