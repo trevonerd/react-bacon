@@ -12,58 +12,58 @@ importers:
         specifier: workspace:*
         version: link:packages/config-hub
       '@changesets/cli':
-        specifier: ^2.27.7
+        specifier: 2.27.7
         version: 2.27.7
       '@commitlint/cli':
-        specifier: ^19.3.0
+        specifier: 19.3.0
         version: 19.3.0(@types/node@22.0.0)(typescript@5.5.4)
       '@commitlint/config-conventional':
-        specifier: ^19.2.2
+        specifier: 19.2.2
         version: 19.2.2
       '@eslint/js':
-        specifier: ^9.8.0
+        specifier: 9.8.0
         version: 9.8.0
       commitizen:
-        specifier: ^4.3.0
+        specifier: 4.3.0
         version: 4.3.0(@types/node@22.0.0)(typescript@5.5.4)
       cz-conventional-changelog:
-        specifier: ^3.3.0
+        specifier: 3.3.0
         version: 3.3.0(@types/node@22.0.0)(typescript@5.5.4)
       cz-gitmoji:
-        specifier: ^0.0.7
+        specifier: 0.0.7
         version: 0.0.7
       esbuild:
-        specifier: ^0.23.0
+        specifier: 0.23.0
         version: 0.23.0
       eslint:
-        specifier: ^9.8.0
+        specifier: 9.8.0
         version: 9.8.0
       eslint-plugin-react:
-        specifier: ^7.35.0
+        specifier: 7.35.0
         version: 7.35.0(eslint@9.8.0)
       globals:
-        specifier: ^15.8.0
+        specifier: 15.8.0
         version: 15.8.0
       husky:
-        specifier: ^9.1.3
+        specifier: 9.1.3
         version: 9.1.3
       lint-staged:
-        specifier: ^15.2.7
+        specifier: 15.2.7
         version: 15.2.7
       prettier:
-        specifier: ^3.3.3
+        specifier: 3.3.3
         version: 3.3.3
       syncpack:
-        specifier: ^12.4.0
+        specifier: 12.4.0
         version: 12.4.0(typescript@5.5.4)
       turbo:
-        specifier: ^2.0.9
+        specifier: 2.0.9
         version: 2.0.9
       typescript:
-        specifier: ^5.5.4
+        specifier: 5.5.4
         version: 5.5.4
       typescript-eslint:
-        specifier: ^7.17.0
+        specifier: 7.17.0
         version: 7.17.0(eslint@9.8.0)(typescript@5.5.4)
 
   apps/demo-app:
@@ -72,26 +72,26 @@ importers:
         specifier: workspace:*
         version: link:../../packages/core
       react:
-        specifier: ^18.3.1
+        specifier: 18.3.1
         version: 18.3.1
       react-dom:
-        specifier: ^18.3.1
+        specifier: 18.3.1
         version: 18.3.1(react@18.3.1)
     devDependencies:
       '@types/react':
-        specifier: ^18.3.3
+        specifier: 18.3.3
         version: 18.3.3
       '@types/react-dom':
-        specifier: ^18.3.0
+        specifier: 18.3.0
         version: 18.3.0
       '@vitejs/plugin-react-swc':
-        specifier: ^3.5.0
+        specifier: 3.7.0
         version: 3.7.0(vite@5.3.5(@types/node@22.0.0))
       typescript:
-        specifier: ^5.2.2
+        specifier: 5.5.4
         version: 5.5.4
       vite:
-        specifier: ^5.3.4
+        specifier: 5.3.5
         version: 5.3.5(@types/node@22.0.0)
 
   packages/config-hub:
@@ -122,50 +122,50 @@ importers:
   packages/core:
     dependencies:
       react:
-        specifier: ^18.2.0
+        specifier: 18.3.1
         version: 18.3.1
       react-dom:
-        specifier: ^18.2.0
+        specifier: 18.3.1
         version: 18.3.1(react@18.3.1)
     devDependencies:
       '@3vo/config-hub':
         specifier: workspace:*
         version: link:../config-hub
       '@eslint/js':
-        specifier: ^9.8.0
+        specifier: 9.8.0
         version: 9.8.0
       '@types/node':
         specifier: 22.0.0
         version: 22.0.0
       '@vitest/coverage-v8':
-        specifier: ^2.0.4
+        specifier: 2.0.4
         version: 2.0.4(vitest@2.0.4(@types/node@22.0.0)(@vitest/ui@2.0.4))
       '@vitest/ui':
-        specifier: ^2.0.4
+        specifier: 2.0.4
         version: 2.0.4(vitest@2.0.4)
       esbuild:
-        specifier: ^0.23.0
+        specifier: 0.23.0
         version: 0.23.0
       eslint:
-        specifier: ^9.8.0
+        specifier: 9.8.0
         version: 9.8.0
       eslint-plugin-react:
-        specifier: ^7.35.0
+        specifier: 7.35.0
         version: 7.35.0(eslint@9.8.0)
       globals:
-        specifier: ^15.8.0
+        specifier: 15.8.0
         version: 15.8.0
       nodemon:
-        specifier: ^3.1.4
+        specifier: 3.1.4
         version: 3.1.4
       typescript:
-        specifier: ^5.5.4
+        specifier: 5.5.4
         version: 5.5.4
       typescript-eslint:
-        specifier: ^7.17.0
+        specifier: 7.17.0
         version: 7.17.0(eslint@9.8.0)(typescript@5.5.4)
       vitest:
-        specifier: ^2.0.4
+        specifier: 2.0.4
         version: 2.0.4(@types/node@22.0.0)(@vitest/ui@2.0.4)
 
 packages:
